@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(to top, #1e3c72 0%, #1e3c72 1%, #2a5298 100%);
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  gap: 3rem;
+}
+
+.portfolio h1 {
+  width: 100%;
+  font-size: 5rem;
+  margin-bottom: 4rem;
+  background-image: linear-gradient(to top, #9be15d 0%, #00e3ae 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
