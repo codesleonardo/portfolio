@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-color: #010014;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  color: #00f6ea;
+}
+
+.menu {
+  display: flex;
+  gap: 50px;
+}
+
+.menu-item {
+  font-weight: 500;
+  font-size: 18px;
+  color: #fff;
+}
+
+.content {
+  margin-bottom: 50px;
+  border-top: 0.4px solid #020030;
+}
+
+.content-intro {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 400px 100px;
+}
+
+.content-intro-text {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.content-intro-text-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  color: #00f6ea;
+  text-transform: uppercase;
+}
+
+.content-intro-text-sub-title {
+  font-family: 'Inter', sans-serif;
+  font-size: 28px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.content-intro-button {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.content-intro-button-item {
+  background: none;
+  border: 0.0625rem solid #00f6ea;
+  border-radius: 0.25rem;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  height: 2.5rem;
+  width: 9rem;
+  justify-content: center;
+}
+
+.content-intro-img {
+  height: 450px;
+  border-radius: 0.25rem;
+}
+
+.content-about {
+  background-color: #020021;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  align-items: center;
+  gap: 200px;
+  padding: 100px 440px 200px;
+}
+
+.content-about-img {
+  height: 350px;
+  border-radius: 0.25rem;
+}
+
+.content-about-text {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  gap: 30px;
+}
+
+.content-about-title {
+  font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.content-about-sub-title {
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+}
+
+.content-about-paragraph {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: #c4c4c4;
+}
+
+.content-about-icons {
+
+}
+
+.content-about-button {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.content-about-button-item {
+  background: none;
+  border: 0.0625rem solid #00f6ea;
+  border-radius: 0.25rem;
+  align-items: center;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+  height: 2.5rem;
+  width: 9rem;
+  justify-content: center;
+}
