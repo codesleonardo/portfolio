@@ -1,0 +1,12 @@
+@import url(../portfolio/__title/portfolio__title.css);
+
+.portfolio {
+  margin: 0;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0084cf;
+  color: #fff;
+}

@@ -1,0 +1,9 @@
+.nav__icon {
+  height: 40px;
+}
+
+@media screen and (max-width: 410px) {
+  .nav__icon {
+    height: 25px;
+  }
+}

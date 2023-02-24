@@ -1,0 +1,24 @@
+@import url(../cards/__description/cards__description.css);
+@import url(../cards/__icon/cards__icon.css);
+@import url(../cards/__icons/cards__icons.css);
+@import url(../cards/__item/cards__item.css);
+@import url(../cards/__link/cards__link.css);
+@import url(../cards/__technologies-list/cards__technologies-list.css);
+@import url(../cards/__technology/cards__technology.css);
+@import url(../cards/__title/cards__title.css);
+
+.cards {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  list-style: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .cards {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,22 @@
+@import url(../nav/__item/nav__item.css);
+@import url(../nav/__link/nav__link.css);
+@import url(../nav/__list/nav__list.css);
+@import url(../nav/__icon/nav__icon.css);
+@import url(../nav/__list/_active/nav__list_active.css);
+@import url(../nav/__icon/nav__icon.css);
+
+.nav {
+  margin: 0;
+  padding: 0 20px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    justify-content: flex-end;
+  }
+}

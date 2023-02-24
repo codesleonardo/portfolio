@@ -1,0 +1,10 @@
+.nav__item {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__item + .nav__item {
+    margin-top: 25px;
+  }
+}

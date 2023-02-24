@@ -1,0 +1,7 @@
+.cards__technologies-list {
+  margin: 0;
+  padding: 20px 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}

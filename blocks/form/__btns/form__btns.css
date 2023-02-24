@@ -1,0 +1,12 @@
+.form__btns {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 425px) {
+  .form__btns {
+    justify-content: space-evenly;
+  }
+}

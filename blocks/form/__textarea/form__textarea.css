@@ -1,0 +1,37 @@
+.form__textarea {
+  box-sizing: border-box;
+  margin: 0 0 20px;
+  padding: 15px 10px;
+  height: 250px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.2;
+  background-color: #fff;
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  resize: none;
+}
+
+.form__textarea:focus,
+.form__textarea:hover {
+  border: 2px solid #0084cf;
+}
+
+.form__textarea:focus {
+  background-color: #fff;
+}
+
+.form__textarea:invalid {
+  border: 1px solid #141d27;
+}
+
+.form__textarea:valid {
+  border: 2px solid #0084cf;
+}
+
+@media screen and (max-width: 600px) {
+  .form__textarea {
+    font-size: 20px;
+  }
+}

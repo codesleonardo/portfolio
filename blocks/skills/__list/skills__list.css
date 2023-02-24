@@ -1,0 +1,9 @@
+.skills__list {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  list-style: none;
+}

@@ -1,0 +1,10 @@
+@import url(./__content/about__content.css);
+@import url(./__image/about__image.css);
+@import url(./__title/about__title.css);
+@import url(./__text/about__text.css);
+.about {
+  margin: 0;
+  padding: 50px 0;
+  background-color: #0084cf;
+  color: #fff;
+}

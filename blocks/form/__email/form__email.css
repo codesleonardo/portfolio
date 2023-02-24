@@ -1,0 +1,25 @@
+.form__email {
+  margin: 0 0 20px;
+  padding: 0;
+  position: relative;
+  display: flex;
+}
+
+.form__email::before {
+  content: "";
+  position: absolute;
+  top: -182px;
+  left: 0;
+  height: 200px;
+  width: 200px;
+  background-image: url(../../../images/5.png);
+  background-position: bottom;
+  background-size: cover;
+  z-index: 1;
+}
+
+@media screen and (max-width: 550px) {
+  .form__email::before {
+    background-image: none;
+  }
+}

@@ -1,0 +1,11 @@
+.cards__title {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 35px;
+  line-height: 1;
+  transition: all 0.3s ease-in;
+}
+
+.cards__item:hover .cards__title {
+  color: #0084cf;
+}

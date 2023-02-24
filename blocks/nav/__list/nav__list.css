@@ -1,0 +1,26 @@
+.nav__list {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  flex: 1 1 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__list {
+    padding: 40px 20px;
+    position: absolute;
+    left: -110%;
+    top: 120px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    text-align: center;
+    transition: all 0.5s ease-out;
+    border-bottom: 2px solid #0084cf;
+  }
+}

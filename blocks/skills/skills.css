@@ -1,0 +1,13 @@
+@import url(../skills/__title/skills__title.css);
+@import url(../skills/__list/skills__list.css);
+@import url(../skills/__list-item/skills__list-item.css);
+.skills {
+  margin: 0;
+  padding: 50px 0;
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

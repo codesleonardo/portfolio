@@ -1,0 +1,20 @@
+.about__image {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 550px;
+  object-fit: cover;
+  place-self: center;
+  border-radius: 75%;
+  transition: all 0.3s ease-in-out;
+}
+
+.about__image:hover {
+  box-shadow: 0 0 0 4px #0084cf, 0 0 0 6px #fff;
+}
+
+@media screen and (max-width: 500px) {
+  .about__image {
+    max-width: 260px;
+  }
+}

@@ -1,0 +1,23 @@
+.figure__img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  height: 120px;
+  transition: all 0.3s ease-in;
+}
+
+.figure__img:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 600px) {
+  .figure__img {
+    height: 100px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .figure__img {
+    height: 80px;
+  }
+}

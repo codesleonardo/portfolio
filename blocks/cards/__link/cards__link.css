@@ -1,0 +1,10 @@
+.cards__link {
+  margin: 0;
+  padding: 0;
+  text-transform: none;
+  transition: all 0.3s ease-in;
+}
+
+.cards__link:hover {
+  transform: scale(1.1);
+}

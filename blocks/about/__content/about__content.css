@@ -1,0 +1,16 @@
+.about__content {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  max-width: 80%;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+@media screen and (max-width: 600px) {
+  .about__content {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 90%;
+  }
+}

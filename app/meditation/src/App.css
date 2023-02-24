@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header__main{
+  font-weight: 900;
+  font-size:x-large;
+}
+.header__subheading{
+font-weight: 400;
+font-size: small;
+}
+.header__image{
+  width: 50vw;
+}

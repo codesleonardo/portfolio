@@ -1,0 +1,32 @@
+.form__btn {
+  margin: 0;
+  padding: 10px 30px;
+  position: relative;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.2;
+  background-color: #fff;
+  border: 2px solid #0084cf;
+  border-radius: 30px;
+  transition: all 0.3s linear;
+}
+
+.form__btn + .form__btn {
+  margin-left: 40px;
+}
+
+.form__btn:hover {
+  cursor: pointer;
+}
+
+.form__btn:hover,
+.form__btn:focus {
+  box-shadow: inset 150px 0 0 0 #0084cf;
+  color: #fff;
+}
+
+@media screen and (max-width: 375px) {
+  .form__btn {
+    padding: 10px 20px;
+  }
+}

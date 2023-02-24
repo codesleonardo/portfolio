@@ -1,0 +1,24 @@
+@import url(../form/__email-input/form__email-input.css);
+@import url(../form/__textarea/form__textarea.css);
+@import url(../form/__btn/form__btn.css);
+@import url(../form/__btn/_type/form__btn_type_reset.css);
+@import url(../form/__btn/_type/form__btn_type_submit.css);
+@import url(../form/__btns/form__btns.css);
+@import url(../form/__email-icon/form__email-icon.css);
+@import url(../form/__email/form__email.css);
+
+.form {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+  .form {
+    width: 90%;
+  }
+}

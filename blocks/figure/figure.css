@@ -1,0 +1,10 @@
+@import url(../figure/__img/figure__img.css);
+@import url(../figure/__caption/figure__caption.css);
+.figure {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
